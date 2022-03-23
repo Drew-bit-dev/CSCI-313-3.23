@@ -1,0 +1,9 @@
+<div>
+  <button (click)="onClick()">Display Details</button>
+  <p *ngIf="showOrHide">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex
+    voluptatem. Illo, facilis. Maiores esse dolorem iusto excepturi natus quo
+    laboriosam ut perspiciatis ex tempore officiis, alias placeat? Nemo, alias!
+  </p>
+  <p *ngFor="let x of log; let i = index">{{ i + 1 }} Hello World! {{ x }}</p>
+</div>
